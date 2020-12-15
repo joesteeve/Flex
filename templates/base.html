@@ -172,6 +172,7 @@
       </h1>
 
       {% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}
+      {% if SITEDISCLAIMER %}<p>Disclaimer: {{ SITEDISCLAIMER }}</p>{% endif %}
 
       {% if PLUGINS and 'tipue_search' in PLUGINS %}
         <form class="navbar-search" action="/search.html" role="search">
